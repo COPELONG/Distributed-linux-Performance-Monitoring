@@ -1,6 +1,6 @@
 # CMAKE
 
-
+![image-20240104144419484](https://my-figures.oss-cn-beijing.aliyuncs.com/Figures/image-20240104144419484.png)
 
 编写CMakeLists.txt文件，使用cmake执行此文件，然后会生成一些文件和makefile文件，接着使用make命令执行makefile文件。
 
@@ -39,6 +39,7 @@ set(CMAKE_CXX_STANDARD 17)
 或者
 #增加-std=c++11
 cmake CMakeLists.txt文件路径 -DCMAKE_CXX_STANDARD=11
+cmake .. -DCMAKE_CXX_STANDARD=11
 #增加-std=c++14
 cmake CMakeLists.txt文件路径 -DCMAKE_CXX_STANDARD=14
 #增加-std=c++17
