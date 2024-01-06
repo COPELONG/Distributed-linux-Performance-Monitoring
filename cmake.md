@@ -226,5 +226,17 @@ message(STATUS "message: ${SRC_1}")
 
 生成库文件时，如果没有设置库文件生成目录，那么在其它cmake文件中就不需要link_directories 将库文件路径指定出来
 
+---------
 
+-------------------
+
+![image-20240106214749738](D:/typora-image/image-20240106214749738.png)
+
+当cd cmake  、 camke ..  执行后。
+
+会根据子目录创建对应的子目录编译存放文件
+
+![image-20240106215042449](D:/typora-image/image-20240106215042449.png)
+
+并且当执行子目录中的cmakelist时，所生成的编译文件都会存放到cmake中对应的文件中
 
