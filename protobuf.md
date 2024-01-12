@@ -175,13 +175,7 @@ set(PROTO_FILES
     cpu_stat.proto
     mem_info.proto
     net_info.proto
-set(PROTO_FILES
-    monitor_info.proto
-    cpu_load.proto
-    cpu_softirq.proto
-    cpu_stat.proto
-    mem_info.proto
-    net_info.proto
+
 )
 
 #
